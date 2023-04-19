@@ -1,0 +1,11 @@
+{
+  "name": "multidocumentanswering-main",
+  "version": "1.0.0",
+  "description": "scrape",
+  "main": "index.js",
+  "scripts": {
+    "test": "hello"
+  },
+  "author": "",
+  "license": "ISC"
+}
