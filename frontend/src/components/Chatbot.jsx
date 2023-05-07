@@ -85,7 +85,7 @@ function Chatbot(){
     
     
     return(<div className="Chatbot">
-    <div style={{ position:"relative", height: "800px", width: "700px"  }}>
+    <div style={{ position: "relative",height: "600px", width: "1500px", backgroundImage: `url(src/components/chatbot-bg.jpeg)`,backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', }}>
       <MainContainer>
         <ChatContainer>       
           <MessageList 
