@@ -2,49 +2,23 @@ import React from 'react';
 
 function About() {
     return (
-        // <div style={{ textAlign: 'center', justifyContent: 'center', alignItems: 'center', backgroundColor: 'grey' }}>
-        //     <h1 style={{color: 'black'}}>About Us</h1>
-        //     <p>Welcome to our graduate college project website! Our team is made up of highly motivated and talented individuals who are passionate about advancing their knowledge and skills in our respective fields.
-        //
-        //         Our project is focused on bringing chatbot application for enterprises. We believe that our project has the potential to make a significant impact in the enterprise industry.
-        //
-        //         Thank you for taking the time to learn more about our project and our team. We look forward to sharing our progress with you and making a meaningful contribution to our field.</p>
-        //
-        //     <h1 style={{ margin: '40px 0' , color: 'black'}}>Our Mission</h1>
-        //     <p>Our mission is to provide a seamless and efficient experience for users to interact with the website and receive the information they need. Our goal is to create a friendly and approachable chatbot that can assist users in navigating the website, finding relevant information, and answering any questions they may have.</p>
-        //
-        //     <h1 style={{ margin: '40px 0', color: 'black' }}>Our Team</h1>
-        //     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-        //         <div>
-        //             <h1>Ashika</h1>
-        //             <p style={{color: 'grey'}}>Image description or caption goes here.</p>
-        //             <img src="src/components/Ashika.jpeg" alt="Ashika" />
-        //         </div>
-        //         <div>
-        //             <h1>Ramya</h1>
-        //             <p style={{color: 'grey'}}>Image description or caption goes here.</p>
-        //             <img src="src/components/Ramya.jpeg" alt="Ramya" />
-        //         </div>
-        //         <div>
-        //             <h1>Anusha</h1>
-        //             <p style={{color: 'grey'}}>Image description or caption goes here.</p>
-        //             <img src="src/components/Anusha.jpeg" alt="Anusha" />
-        //         </div>
-        //     </div>
-        // </div>
-
         <div className="container1 my-24 px-6 mx-auto">
 
             <section className="mb-32 text-gray-800 text-center">
-                <h1 className="text-3xl font-bold mb-5">About Us</h1>
-                <p>Welcome to our graduate college project website! Our team is made up of highly motivated and talented individuals who are passionate about advancing their knowledge and skills in our respective fields.
+            <div class="bg-white shadow-md rounded-md p-6 mx-4 my-8">
+                <h1 class="text-3xl font-bold mb-5">About Us</h1>
+                <p class="text-gray-800">Welcome to our graduate college project website! Our team is made up of highly motivated and talented individuals who are passionate about advancing their knowledge and skills in our respective fields.</p>
+                <p class="text-gray-800">Our project is focused on bringing chatbot application for enterprises. We believe that our project has the potential to make a significant impact in the enterprise industry.</p>
+                <p class="text-gray-800">Thank you for taking the time to learn more about our project and our team. We look forward to sharing our progress with you and making a meaningful contribution to our field.</p>
+            </div>
 
-                             Our project is focused on bringing chatbot application for enterprises. We believe that our project has the potential to make a significant impact in the enterprise industry.
-
-                             Thank you for taking the time to learn more about our project and our team. We look forward to sharing our progress with you and making a meaningful contribution to our field.</p>
-                <h1 className="text-3xl font-bold mb-5">Our Mission</h1>
-                <p>Our mission is to provide a seamless and efficient experience for users to interact with the website and receive the information they need. Our goal is to create a friendly and approachable chatbot that can assist users in navigating the website, finding relevant information, and answering any questions they may have.</p>
-                <h2 className="text-3xl font-bold mb-32">Meet the team</h2>
+            <div className="bg-white rounded-lg shadow-lg p-6 mb-10">
+                <h1 className="text-3xl font-bold mb-5 mx-4 my-8">Our Mission</h1>
+                <p className="mb-8">
+                    Our mission is to provide a seamless and efficient experience for users to interact with the website and receive the information they need. Our goal is to create a friendly and approachable chatbot that can assist users in navigating the website, finding relevant information, and answering any questions they may have.
+                </p>
+            </div>
+            <h2 className="text-3xl font-bold mb-32">Meet the team</h2> 
                 <div className="grid gap-x-6 lg:gap-x-12 md:grid-cols-3">
                     <div className="mb-24 md:mb-0">
                         <div className="rounded-lg shadow-lg h-full block bg-white">
